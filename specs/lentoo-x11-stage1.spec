@@ -1,12 +1,10 @@
 subarch: amd64
 target: livecd-stage1
 version_stamp: 1.0
+snapshot_treeish: 20260313
 rel_type: default
 profile: default/linux/amd64/23.0/desktop
-snapshot: 20260313
-source_subpath: default/stage3-amd64-latest
-update_seed: yes
-update_seed_command: --update --deep --newuse @world
+source_subpath: default/stage3-amd64-openrc-latest
 
 livecd/packages:
     - x11-base/xorg-server

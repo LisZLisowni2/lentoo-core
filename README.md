@@ -26,6 +26,6 @@ sudo catalyst -f specs/stage1.spec
 Project Lentoo is available on GNU General Public License v3.0 (GPL-3.0).
 
 > Lentoo is an independent fork and is not officially supported by the Gentoo Foundation.
-> Gentoo is a registered trademark of Gentoo Foundation
+> Gentoo is a registered trademark of Gentoo Foundation, Inc.
 
 Compile with patience, use with joy.
