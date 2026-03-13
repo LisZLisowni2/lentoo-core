@@ -18,6 +18,16 @@ Project use official tool **Catalyst** to generate LiveCD images. Configurations
 To generate stage1 image, make sure you have `dev-util/catalyst` installed and run:
 
 ```bash
+# Generate tmp directory for catalyst
+sudo mkdir -p /var/tmp/catalyst/builds/default
+
+# Download seed file
+wget https://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64/stage3-openrc-amd64-YYYYMMDDTHHMMSSZ.tar.xz -O /var/tmp/catalyst/builds/default/stage3-amd64-openrc-latest.tar.xz
+
+# Generate snapshot
+catalyst --snapshot stable # This will generate a commit hash, remember to change it in *.spec files
+
+# Build stage1 image
 sudo catalyst -f specs/stage1.spec
 ```
 
