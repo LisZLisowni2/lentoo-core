@@ -6,15 +6,16 @@ rel_type: default
 profile: default/linux/amd64/23.0/desktop
 source_subpath: default/livecd-stage1-amd64-1.0
 
+boot/kernel: gentoo
+boot/kernel/gentoo/sources: sys-kernel/gentoo-kernel-bin
+boot/kernel/gentoo/dracut_args: --allram --compress-initramfs
+
 livecd/bootargs: gentoo dozfs nomodeset
 livecd/gk_mainargs: --allram --gpg --luks --mdadm --lvm --dmraid --nfs --iscsi --multipath --linuxrc --atasmart --compress-initramfs
 
 livecd/iso: lentoo-x11-v1.iso
 livecd/volid: LENTOO_2026
 
-livecd/xdm: lightdm
-livecd/xsession: xfce
 livecd/rcadd: dbus|default,NetworkManager|default,lightdm|default  
-
-livecd/fsscript: scripts/fsscript.sh 
-livecd/root_overlay: root_overlay   
+livecd/root_overlay: ../root_overlay   
+livecd/fsscript: ../scripts/fsscript.sh 

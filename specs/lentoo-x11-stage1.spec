@@ -17,6 +17,8 @@ livecd/packages:
     sys-auth/polkit
     x11-base/xorg-drivers
     xfce-base/thunar
+    sys-kernel/linux-firmware
+    sys-kernel/gentoo-kernel-bin
 
 livecd/use:
     gtk
