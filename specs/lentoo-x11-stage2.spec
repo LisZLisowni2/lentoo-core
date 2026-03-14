@@ -7,3 +7,8 @@ profile: default/linux/amd64/23.0/desktop
 source_subpath: default/livecd-stage1-amd64-1.0
 
 livecd/bootargs: gentoo dozfs nomodeset
+livecd/gk_mainargs: --admin --menuconfig 
+livecd/fsscript: scripts/fsscript.sh 
+livecd/xdm: lightdm                
+livecd/xsession: xfce             
+livecd/root_overlay: root_overlay   
