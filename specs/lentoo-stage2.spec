@@ -9,8 +9,10 @@ portage_confdir: /var/tmp/catalyst/config/lentoo/portage/
 portage_prefix: lentoo
 
 boot/kernel: gentoo
+
 boot/kernel/gentoo/distkernel: yes
 boot/kernel/gentoo/dracut_args: --xz --no-hostonly -a dmsquash-live -a dmsquash-live-ntfs -a mdraid -o btrfs -o crypt -o i18n -o usrmount -o lunmask -o qemu -o qemu-net -o nvdimm -o multipath -i /lib/keymaps /lib/keymaps -I busybox
+boot/kernel/gentoo/config: /var/tmp/catalyst/config/lentoo/kconfig/amd64/dist-amd64-livecd.config
 boot/kernel/gentoo/packages: --usepkg n net-wireless/broadcom-sta sys-fs/zfs
 
 livecd/bootargs: nodhcp
