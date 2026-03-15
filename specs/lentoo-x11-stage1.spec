@@ -6,6 +6,7 @@ rel_type: default
 profile: default/linux/amd64/23.0/desktop
 source_subpath: default/stage3-amd64-openrc-latest
 portage_confdir: /var/tmp/catalyst/lentoo-config/portage/
+portage_prefix: lentoo
 
 livecd/packages:
     x11-base/xorg-server
@@ -19,3 +20,14 @@ livecd/packages:
     x11-base/xorg-drivers
     xfce-base/thunar
     sys-kernel/linux-firmware
+
+livecd/use:
+    gtk
+    gtk3
+    xft
+    nls
+    dbus
+    networkmanager
+    glamor      
+    udev
+    icu         
