@@ -5,10 +5,10 @@ snapshot_treeish: 3b1e8b42ffb9185e7cc4cf65d41ac6a8a0b4e977
 rel_type: default
 profile: default/linux/amd64/23.0/desktop
 source_subpath: default/livecd-stage1-amd64-1.0
+portage_confdir: releases/portage/
 
 boot/kernel: gentoo
 boot/kernel/gentoo/sources: sys-kernel/gentoo-kernel-bin
-boot/kernel/gentoo/dracut_args: --allram --compress-initramfs
 
 livecd/bootargs: gentoo dozfs nomodeset
 livecd/gk_mainargs: --allram --gpg --luks --mdadm --lvm --dmraid --nfs --iscsi --multipath --linuxrc --atasmart --compress-initramfs
