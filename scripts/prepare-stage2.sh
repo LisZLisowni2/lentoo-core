@@ -4,6 +4,7 @@ ROOT_PROJECT=$(cd "$(dirname $BASH_SOURCES[0]})" && pwd)
 CATALYST_TMP_DIR="/var/tmp/catalyst"
 CATALYST_SCRIPTS_DIR="$CATALYST_TMP_DIR/scripts"
 CATALYST_ROOT_OVERLAY="$CATALYST_TMP_DIR/root_overlay"
+CATALYST_KERNEL_CONF="$CATALYST_TMP_DIR/kernel_config"
 
 echo ">>> Preparing stage2 environment"
 

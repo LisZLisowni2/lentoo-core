@@ -13,3 +13,5 @@ echo "lentoo ALL=(ALL) ALL" >> /etc/sudoers
 
 mkdir -p /etc/lightdm/lightdm.conf.d
 echo -e "[Seat:*]\nautologin-user=lentoo\nautologin-user-timeout=0" > /etc/lightdm/lightdm.conf.d/autologin.conf
+
+# dracut --force
