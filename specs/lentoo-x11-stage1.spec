@@ -19,13 +19,3 @@ livecd/packages:
     x11-base/xorg-drivers
     xfce-base/thunar
     sys-kernel/linux-firmware
-
-livecd/use:
-    gtk
-    xft
-    nls
-    dbus
-    networkmanager
-    glamor      
-    udev
-    icu         
