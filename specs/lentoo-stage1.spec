@@ -5,7 +5,7 @@ snapshot_treeish: 3b1e8b42ffb9185e7cc4cf65d41ac6a8a0b4e977
 rel_type: default
 profile: default/linux/amd64/23.0/desktop
 source_subpath: default/stage3-amd64-openrc-latest
-portage_confdir: /var/tmp/catalyst/lentoo-config/portage/
+portage_confdir: /var/tmp/catalyst/config/lentoo/portage/
 portage_prefix: lentoo
 
 livecd/packages:
