@@ -14,7 +14,7 @@ boot/kernel/gentoo/sources: sys-kernel/gentoo-kernel-bin
 livecd/bootargs: gentoo dozfs nomodeset
 livecd/gk_mainargs: --allram --gpg --luks --mdadm --lvm --dmraid --nfs --iscsi --multipath --linuxrc --atasmart --compress-initramfs
 
-livecd/iso: lentoo-x11-v1.iso
+livecd/iso: lentoo-v1.iso
 livecd/volid: LENTOO_2026
 
 livecd/rcadd: dbus|default,NetworkManager|default,lightdm|default  
