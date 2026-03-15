@@ -7,7 +7,7 @@ profile: default/linux/amd64/23.0/desktop
 source_subpath: default/livecd-stage1-amd64-1.0
 
 boot/kernel: gentoo
-boot/kernel/gentoo/sources: sys-kernel/gentoo-kernel-bin
+boot/kernel/gentoo/sources: sys-kernel/gentoo-sources
 
 livecd/bootargs: gentoo dozfs nomodeset
 
@@ -15,5 +15,5 @@ livecd/iso: lentoo-v1.iso
 livecd/volid: LENTOO_2026
 
 livecd/rcadd: dbus|default,NetworkManager|default,lightdm|default  
-livecd/root_overlay: ../root_overlay   
-livecd/fsscript: ../scripts/fsscript.sh 
+livecd/root_overlay: /var/tmp/catalyst/root_overlay   
+livecd/fsscript: /var/tmp/catalyst/scripts/fsscript.sh 
