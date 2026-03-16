@@ -20,8 +20,8 @@ livecd/fstype: squashfs
 livecd/iso: lentoo-20260315T171112Z.iso
 livecd/volid: Lentoo-amd64-20260315T171112Z
 
-livecd/rcadd: dbus|default NetworkManager|default lightdm|default gpm|default NetworkManager|default
-livecd/root_overlay: /var/tmp/catalyst/root_overlay   
+livecd/rcadd: dbus|default NetworkManager|default display-manager|default gpm|default NetworkManager|default
+livecd/root_overlay: /var/tmp/catalyst/root_overlay/  
 livecd/fsscript: /var/tmp/catalyst/scripts/fsscript.sh 
 
 livecd/unmerge:
