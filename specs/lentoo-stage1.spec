@@ -200,6 +200,7 @@ livecd/packages:
     xfce-base/thunar
     sys-kernel/installkernel
     sys-kernel/dracut
+	x11-misc/lightdm
 
 livecd/use:
     gtk
