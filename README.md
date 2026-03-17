@@ -27,8 +27,14 @@ wget https://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64
 # Generate snapshot
 catalyst --snapshot stable # This will generate a commit hash, remember to change it in *.spec files
 
+# Prepare stages
+sudo ./scripts/prepare-stages.sh
+
 # Build stage1 image
 sudo catalyst -f specs/stage1.spec
+
+# Build stage2 iso
+sudo catalyst -f specs/stage2.spec
 ```
 
 ## License

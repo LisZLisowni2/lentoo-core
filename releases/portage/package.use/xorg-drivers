@@ -1,0 +1,3 @@
+x11-base/xorg-drivers VIDEO_CARDS: amdgpu ast dummy fbdev freedreno geode i915 intel mga nouveau omap qxl r128 radeon radeonsi siliconmotion tegra vc4 vesa via virtualbox vmware
+x11-libs/libdrm VIDEO_CARDS: vmware
+media-libs/mesa xa
