@@ -201,6 +201,7 @@ livecd/packages:
     sys-kernel/installkernel
     sys-kernel/dracut
 	x11-misc/lightdm
+	www-client/firefox-bin
 
 livecd/use:
     gtk

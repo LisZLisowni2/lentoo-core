@@ -18,9 +18,9 @@ boot/kernel/gentoo/packages: --usepkg n net-wireless/broadcom-sta sys-fs/zfs
 livecd/bootargs: nodhcp
 livecd/fstype: squashfs
 livecd/iso: lentoo-20260315T171112Z.iso
-livecd/volid: Lentoo-amd64-20260315T171112Z
+livecd/volid: Lentoo
 
-livecd/rcadd: dbus|default NetworkManager|default display-manager|default gpm|default NetworkManager|default
+livecd/rcadd: dbus|default NetworkManager|default display-manager|default gpm|default
 livecd/root_overlay: /var/tmp/catalyst/root_overlay/  
 livecd/fsscript: /var/tmp/catalyst/scripts/fsscript.sh 
 
@@ -46,7 +46,6 @@ livecd/unmerge:
 	sys-apps/texinfo
 	sys-devel/bison
 	sys-devel/flex
-	sys-devel/gettext
 	sys-devel/gnuconfig
 	sys-devel/m4
 	sys-libs/db
