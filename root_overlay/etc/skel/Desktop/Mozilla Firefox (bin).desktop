@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Mozilla Firefox (bin)
+Comment=Browse the Web
+Exec=firefox-bin --name=firefox-bin %u
+Icon=firefox-bin
+Path=
+Terminal=false
+StartupNotify=true
