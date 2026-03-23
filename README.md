@@ -1,3 +1,5 @@
+![](assets/LogoLentooSmall.png)
+
 # Lentoo Linux
 
 **Lentoo** is a distribution based on Gentoo, created to provide a more user-friendly experience for users who value source compilation but seek a modern and user-friendly interface.
