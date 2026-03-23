@@ -9,9 +9,9 @@
 ## Project goals
 Main goal of Lentoo is to lower the barrier to entry into the world of Gentoo without sacrificing its flexibility. Planned functions are:
 * **Lentoo Installer:** Graphical Installer based on Tauri
-* **Lentoo Manager:** User-friendly GUI to manage packages and USE flags
-* **EasyConfig:** Tool to graphical configuration of `make.conf`.
-* **Lekkość:** Default desktop environment is Xfce which provides perfomance and ease of use.
+* **Lentoo Manager:** User-friendly GUI to manage packages and USE flags, license and environment per package
+* **EasyConfigMake:** Tool to graphical configuration of `make.conf`, accept keywords and masks.
+* **Lightweight:** Default desktop environment is Xfce which provides perfomance and ease of use.
 
 ## System building
 Project use official tool **Catalyst** to generate LiveCD images. Configurations are located in `specs/`.
